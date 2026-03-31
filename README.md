@@ -1,1 +1,1 @@
-# Differential-Geometry-Toolkit
+The governing equations of differential geometry can be derived elegantly with the proper intuition. However, for a given n-dimensional manifold, the number of resulting equations scales as  𝑂(𝑛^4). This produces a cumbersome number of equations that is tedious, redundant, and often impractical to solve by hand. This toolkit calculates, optimizes, and stores these expressions.
