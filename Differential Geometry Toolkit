@@ -6,9 +6,9 @@ coord_names = input(f"Enter {dim} coords separated by spaces: ").split()
 coords = sp.symbols(coord_names)
 coord_dict = dict(zip(coord_names, coords))
 genfuncs = {}
-isfunc = input("Are there any general functions? (y/n): ")
+isfunc = input("Are there any ansantz functions? (y/n): ")
 if isfunc.lower() == 'y':
-    nfuncs = int(input("How many general functions?: "))
+    nfuncs = int(input("How many ansantz functions?: "))
     for i in range(nfuncs):
         parts = input(f"Enter function #{i+1} name and its variables separated by spaces: ").split()
         func_name = parts[0]
