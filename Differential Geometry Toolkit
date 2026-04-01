@@ -1,6 +1,6 @@
 import sympy as sp
 
-# Input coords and general functions.
+# Input coords and ansantz functions.
 dim = int(input("How many coords?: "))
 coord_names = input(f"Enter {dim} coords separated by spaces: ").split()
 coords = sp.symbols(coord_names)
